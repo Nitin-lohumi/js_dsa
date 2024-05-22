@@ -1,6 +1,6 @@
 class Queue {
     constructor(){
-        this.arr ={};
+        this.arr={};
         this.front=0;
         this.rare = 0;
     }
@@ -10,7 +10,7 @@ class Queue {
        return item + "inserted";
     }
     delete(){
-        const item =delete this.arr[this.front];
+        const item = delete this.arr[this.front];
         
         this.front ++;
         return item;
