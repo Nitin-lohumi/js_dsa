@@ -28,8 +28,6 @@ stack.add(5);
 for(let i=0; i<this.items.length; i++){
     stack.pop();
 }
-
-
 stack.display();
 
 

@@ -1,6 +1,6 @@
 class Queue {
     constructor(){
-        this.arr={};
+        this.arr=[];
         this.front=0;
         this.rare = 0;
     }
@@ -26,5 +26,6 @@ console.log(queue.insert(6))
 console.log(queue.insert(4))
 let str = queue.print;
 console.log(str);
-console.log(queue.delete())
+console.log(queue.delete());
+console.log(queue.delete());
 console.log(str);

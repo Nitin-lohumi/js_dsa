@@ -3,7 +3,6 @@ class fact{
     if(i==1)
     {
         return 1;
-
     }
         result =f1(i-1)*i;
         return result;
